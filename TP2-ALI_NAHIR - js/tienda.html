@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tienda Oficial — Feria del Libro 2026</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+<nav class="fl-nav">
+  <input type="checkbox" id="nav-cb" class="fl-nav-cb"/>
+  <div class="fl-nav-inner">
+    <a class="fl-brand" href="index.html">Feria del Libro 2026</a>
+    <label for="nav-cb" class="fl-hamburger"><span></span><span></span><span></span></label>
+    <div class="fl-nav-menu">
+      <ul class="fl-nav-links">
+        <li><a href="index.html">Inicio</a></li><li><a href="sobre.html">Sobre</a></li>
+        <li><a href="actividades.html">Actividades</a></li><li><a href="lugar.html">Lugar</a></li>
+        <li><a href="tienda.html" class="active">Tienda</a></li>
+        <li><a href="contacto.html">Contacto</a></li><li><a href="faq.html">FAQ</a></li>
+      </ul>
+      <a href="tienda.html" class="fl-btn-nav">Tienda</a>
+      <a href="carrito.html" class="fl-cart-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+        <span class="fl-cart-badge">3</span>
+      </a>
+    </div>
+  </div>
+  <div class="fl-nav-dropdown"><ul>
+    <li><a href="index.html">Inicio</a></li><li><a href="sobre.html">Sobre la feria</a></li>
+    <li><a href="actividades.html">Actividades</a></li><li><a href="lugar.html">Lugar</a></li>
+    <li><a href="tienda.html">Tienda</a></li><li><a href="contacto.html">Contacto</a></li>
+    <li><a href="faq.html">FAQ</a></li>
+  </ul><a href="tienda.html" class="fl-btn-nav">Ir a la tienda</a></div>
+</nav>
+
+
+<div class="fl-page-header">
+  <div class="fl-page-header-content container-xl">
+    <div class="fl-breadcrumb"><a href="index.html">Inicio</a><span>/</span>Tienda</div>
+    <h1>Tienda oficial</h1>
+    <p>Entradas y merchandising edición 50 aniversario</p>
+  </div>
+</div>
+
+
+<section class="fl-section" id="entradas">
+  <div class="container-xl">
+    <h2 class="fl-section-title">Entradas</h2>
+    <div class="fl-divider"></div>
+    <p class="fl-lead mb-5">Elegí cómo vivir la Feria del Libro 2026. Disponible para los 19 días del evento.</p>
+
+    <div class="row g-4">
+
+      
+      <div class="col-12 col-lg-6">
+        <a href="#entrada-general" class="fl-prod-link fl-prod-link-wide">
+          <div class="fl-prod-img-wrap">
+            <img src="./img/feria2.jpg" alt="Entrada general" class="fl-prod-img" loading="lazy"/>
+            <span class="fl-prod-badge">Más elegida</span>
+            <div class="fl-prod-overlay"><span>Ver opción</span></div>
+          </div>
+          <div class="fl-prod-body">
+            <span class="fl-tag">Entrada</span>
+            <h4 class="fl-prod-name">Entrada general</h4>
+            <p class="fl-prod-short">Acceso a todos los pabellones, charlas y actividades durante un día a elección.</p>
+            <span class="fl-prod-price">$3.500</span>
+          </div>
+        </a>
+      </div>
+
+      
+      <div class="col-12 col-lg-6">
+        <a href="#entrada-combo" class="fl-prod-link fl-prod-link-wide">
+          <div class="fl-prod-img-wrap">
+            <img src="./img/merch.png" alt="Entrada combo" class="fl-prod-img" loading="lazy"/>
+            <span class="fl-prod-badge b-amber">Mejor precio</span>
+            <div class="fl-prod-overlay"><span>Ver opción</span></div>
+          </div>
+          <div class="fl-prod-body">
+            <span class="fl-tag">Entrada + Merch</span>
+            <h4 class="fl-prod-name">Entrada + Combo 50 años</h4>
+            <p class="fl-prod-short">Entrada general + tote bag y taza de la colección aniversario, con descuento.</p>
+            <span class="fl-prod-price">$8.900</span>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<div class="fl-ppup-wrap" id="entrada-general">
+  <a href="tienda.html#entradas" class="fl-ppup-overlay"></a>
+  <div class="fl-ppup">
+    <a href="tienda.html#entradas" class="fl-ppup-close"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></a>
+    <div class="row g-0">
+      <div class="col-12 col-md-5">
+        <div class="fl-ppup-img-wrap">
+          <img src="./img/feria2.jpg" alt="Entrada general" class="fl-ppup-img"/>
+          <span class="fl-ppup-badge">Más elegida</span>
+        </div>
+      </div>
+      <div class="col-12 col-md-7">
+        <div class="fl-ppup-body">
+          <span class="fl-tag mb-2 d-inline-block">Entrada</span>
+          <h2 class="fl-ppup-title">Entrada general</h2>
+          <p class="fl-ppup-price">$3.500</p>
+          <p class="fl-ppup-desc">Acceso completo a la Feria Internacional del Libro de Buenos Aires 2026 por un día a elección. Incluye ingreso a todos los pabellones, charlas, presentaciones y actividades del programa cultural.</p>
+          <ul class="fl-ppup-specs">
+            <li><strong>Válida para:</strong> 1 día a elección · 23 abr – 11 may</li>
+            <li><strong>Incluye:</strong> Acceso a todos los pabellones</li>
+            <li><strong>Incluye:</strong> Programa completo de charlas y firmas</li>
+            <li><strong>Menores de 12 y jubilados:</strong> Entrada gratuita</li>
+          </ul>
+          <div class="mb-3">
+            <label class="fl-label">Fecha de la visita</label>
+            <input type="date" class="fl-input" min="2026-04-23" max="2026-05-11"/>
+          </div>
+          <div class="fl-qty-wrap">
+            <label class="fl-label">Cantidad de entradas</label>
+            <div class="fl-qty-ctrl">
+              <button type="button" class="fl-qty-btn">−</button>
+              <input type="number" value="1" min="1" max="10" class="fl-qty-native"/>
+              <button type="button" class="fl-qty-btn">+</button>
+            </div>
+          </div>
+          <a href="carrito.html" class="fl-btn-primary d-block text-center mt-3">Agregar al carrito</a>
+          <p class="fl-ppup-ship">Entrada digital · Se envía por correo electrónico</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="fl-ppup-wrap" id="entrada-combo">
+  <a href="tienda.html#entradas" class="fl-ppup-overlay"></a>
+  <div class="fl-ppup">
+    <a href="tienda.html#entradas" class="fl-ppup-close"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></a>
+    <div class="row g-0">
+      <div class="col-12 col-md-5">
+        <div class="fl-ppup-img-wrap">
+          <img src="./img/merch.png" alt="Entrada combo" class="fl-ppup-img"/>
+          <span class="fl-ppup-badge alt-amber">Mejor precio</span>
+        </div>
+      </div>
+      <div class="col-12 col-md-7">
+        <div class="fl-ppup-body">
+          <span class="fl-tag mb-2 d-inline-block">Entrada + Merch</span>
+          <h2 class="fl-ppup-title">Entrada + Combo 50 años</h2>
+          <p class="fl-ppup-price">$8.900 <span style="font-size:13px;font-weight:400;color:var(--g500);text-decoration:line-through;">$10.500</span></p>
+          <p class="fl-ppup-desc">La experiencia completa: entrada general por un día a elección más dos productos exclusivos de la colección 50 aniversario. Un 15% más barato que comprando todo por separado.</p>
+          <ul class="fl-ppup-specs">
+            <li><strong>Incluye:</strong> 1 entrada general (1 día a elección)</li>
+            <li><strong>Incluye:</strong> Tote bag 50 años</li>
+            <li><strong>Incluye:</strong> Taza cerámica edición 2026</li>
+            <li><strong>Ahorro:</strong> 15% vs. compra por separado</li>
+          </ul>
+          <div class="mb-3">
+            <label class="fl-label">Fecha de la visita</label>
+            <input type="date" class="fl-input" min="2026-04-23" max="2026-05-11"/>
+          </div>
+          <div class="fl-qty-wrap">
+            <label class="fl-label">Cantidad de combos</label>
+            <div class="fl-qty-ctrl">
+              <button type="button" class="fl-qty-btn">−</button>
+              <input type="number" value="1" min="1" max="10" class="fl-qty-native"/>
+              <button type="button" class="fl-qty-btn">+</button>
+            </div>
+          </div>
+          <a href="carrito.html" class="fl-btn-primary d-block text-center mt-3">Agregar al carrito</a>
+          <p class="fl-ppup-ship">Entrada digital + retiro de merch en stand oficial</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<section class="fl-section">
+  <div class="container-xl">
+
+    <div class="row g-4 mb-5 align-items-center">
+      <div class="col-12 col-lg-6">
+        <h2 class="fl-section-title">Colección 50 Aniversario</h2>
+        <div class="fl-divider"></div>
+        <p class="fl-lead">Una línea exclusiva de productos de edición limitada para conmemorar medio siglo de la Feria Internacional del Libro de Buenos Aires. Diseños únicos, materiales de calidad y tirada limitada.</p>
+      </div>
+      <div class="col-12 col-lg-6">
+        <div style="border-radius:var(--r-xl);overflow:hidden;box-shadow:var(--sh-md);">
+          <img src="./img/tienda.png" alt="Colección" style="width:100%;height:220px;object-fit:cover;" loading="lazy"/>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="row g-4">
+
+      
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="h-100">
+          <a href="#prod-1" class="fl-prod-link">
+            <div class="fl-prod-img-wrap">
+              <img src="./img/tote.png" alt="Tote bag" class="fl-prod-img" loading="lazy"/>
+              <span class="fl-prod-badge">Edición limitada</span>
+              <div class="fl-prod-overlay"><span>Ver producto</span></div>
+            </div>
+            <div class="fl-prod-body">
+              <span class="fl-tag">Accesorios</span>
+              <h4 class="fl-prod-name">Tote bag 50 años</h4>
+              <p class="fl-prod-short">100% algodón · Serigrafía artesanal</p>
+              <span class="fl-prod-price">$4.200</span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="h-100">
+          <a href="#prod-2" class="fl-prod-link">
+            <div class="fl-prod-img-wrap">
+              <img src="./img/taza.png" alt="Taza" class="fl-prod-img" loading="lazy"/>
+              <span class="fl-prod-badge b-amber">Más vendido</span>
+              <div class="fl-prod-overlay"><span>Ver producto</span></div>
+            </div>
+            <div class="fl-prod-body">
+              <span class="fl-tag">Colección</span>
+              <h4 class="fl-prod-name">Taza cerámica</h4>
+              <p class="fl-prod-short">350 ml · Diseño exclusivo 2026</p>
+              <span class="fl-prod-price">$2.800</span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="h-100">
+          <a href="#prod-3" class="fl-prod-link">
+            <div class="fl-prod-img-wrap">
+              <img src="./img/poster.png" alt="Poster" class="fl-prod-img" loading="lazy"/>
+              <div class="fl-prod-overlay"><span>Ver producto</span></div>
+            </div>
+            <div class="fl-prod-body">
+              <span class="fl-tag">Colección</span>
+              <h4 class="fl-prod-name">Póster conmemorativo</h4>
+              <p class="fl-prod-short">A2 · Papel offset 200 g · Numerado</p>
+              <span class="fl-prod-price">$1.900</span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="h-100">
+          <a href="#prod-4" class="fl-prod-link">
+            <div class="fl-prod-img-wrap">
+              <img src="./img/remera.png" alt="Remera" class="fl-prod-img" loading="lazy"/>
+              <span class="fl-prod-badge b-dark">Nuevo</span>
+              <div class="fl-prod-overlay"><span>Ver producto</span></div>
+            </div>
+            <div class="fl-prod-body">
+              <span class="fl-tag">Ropa</span>
+              <h4 class="fl-prod-name">Remera aniversario</h4>
+              <p class="fl-prod-short">S · M · L · XL · Unisex · Algodón peinado</p>
+              <span class="fl-prod-price">$6.500</span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="text-center mt-5">
+      <p style="font-size:14px;font-weight:300;color:var(--g500);margin-bottom:12px;">¿Ya realizaste una compra?</p>
+      <a href="pedidos.html" class="fl-btn-outline">Ver historial de pedidos</a>
+    </div>
+
+  </div>
+</section>
+
+<!--/*POP UPS PRODUCTOS*/-->
+
+<div class="fl-ppup-wrap" id="prod-1">
+  <a href="tienda.html" class="fl-ppup-overlay"></a>
+  <div class="fl-ppup">
+    <a href="tienda.html" class="fl-ppup-close"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></a>
+    <div class="row g-0">
+      <div class="col-12 col-md-5">
+        <div class="fl-ppup-img-wrap">
+          <img src="./img/tote.png" alt="Tote bag" class="fl-ppup-img"/>
+          <span class="fl-ppup-badge">Edición limitada</span>
+        </div>
+      </div>
+      <div class="col-12 col-md-7">
+        <div class="fl-ppup-body">
+          <span class="fl-tag mb-2 d-inline-block">Accesorios</span>
+          <h2 class="fl-ppup-title">Tote bag 50 años</h2>
+          <p class="fl-ppup-price">$4.200</p>
+          <p class="fl-ppup-desc">Bolso de tela 100% algodón con diseño exclusivo del 50 aniversario de la Feria. Impresión en serigrafía artesanal, resistente al uso diario. Ideal para llevar tus libros y recuerdos de la feria.</p>
+          <ul class="fl-ppup-specs">
+            <li><strong>Material:</strong> 100% algodón orgánico</li>
+            <li><strong>Técnica:</strong> Serigrafía artesanal</li>
+            <li><strong>Medidas:</strong> 38 × 42 cm</li>
+            <li><strong>Color:</strong> Natural con estampa violeta</li>
+            <li><strong>Disponibilidad:</strong> Stock limitado</li>
+          </ul>
+          <div class="fl-qty-wrap">
+            <label class="fl-label">Cantidad</label>
+            <div class="fl-qty-ctrl">
+              <button type="button" class="fl-qty-btn">−</button>
+              <input type="number" value="1" min="1" max="10" class="fl-qty-native"/>
+              <button type="button" class="fl-qty-btn">+</button>
+            </div>
+          </div>
+          <a href="carrito.html" class="fl-btn-primary d-block text-center mt-3">Agregar al carrito</a>
+          <p class="fl-ppup-ship">Envío gratis en feria · Retiro en stand disponible</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="fl-ppup-wrap" id="prod-2">
+  <a href="tienda.html" class="fl-ppup-overlay"></a>
+  <div class="fl-ppup">
+    <a href="tienda.html" class="fl-ppup-close"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></a>
+    <div class="row g-0">
+      <div class="col-12 col-md-5">
+        <div class="fl-ppup-img-wrap">
+          <img src="./img/taza.png" alt="Taza" class="fl-ppup-img"/>
+          <span class="fl-ppup-badge alt-amber">Más vendido</span>
+        </div>
+      </div>
+      <div class="col-12 col-md-7">
+        <div class="fl-ppup-body">
+          <span class="fl-tag mb-2 d-inline-block">Colección</span>
+          <h2 class="fl-ppup-title">Taza cerámica</h2>
+          <p class="fl-ppup-price">$2.800</p>
+          <p class="fl-ppup-desc">Taza de cerámica de alta temperatura con diseño conmemorativo exclusivo 2026. Apta para microondas y lavavajillas. El regalo perfecto para el lector de tu vida.</p>
+          <ul class="fl-ppup-specs">
+            <li><strong>Material:</strong> Cerámica de alta temperatura</li>
+            <li><strong>Capacidad:</strong> 350 ml</li>
+            <li><strong>Apta:</strong> Microondas y lavavajillas</li>
+            <li><strong>Colores:</strong> Blanco con diseño violeta 50 años</li>
+            <li><strong>Packaging:</strong> Caja de regalo incluida</li>
+          </ul>
+          <div class="fl-qty-wrap">
+            <label class="fl-label">Cantidad</label>
+            <div class="fl-qty-ctrl">
+              <button type="button" class="fl-qty-btn">−</button>
+              <input type="number" value="1" min="1" max="10" class="fl-qty-native"/>
+              <button type="button" class="fl-qty-btn">+</button>
+            </div>
+          </div>
+          <a href="carrito.html" class="fl-btn-primary d-block text-center mt-3">Agregar al carrito</a>
+          <p class="fl-ppup-ship">Envío gratis en feria · Retiro en stand disponible</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="fl-ppup-wrap" id="prod-3">
+  <a href="tienda.html" class="fl-ppup-overlay"></a>
+  <div class="fl-ppup">
+    <a href="tienda.html" class="fl-ppup-close"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></a>
+    <div class="row g-0">
+      <div class="col-12 col-md-5">
+        <div class="fl-ppup-img-wrap">
+          <img src="./img/poster.png" alt="Poster" class="fl-ppup-img"/>
+        </div>
+      </div>
+      <div class="col-12 col-md-7">
+        <div class="fl-ppup-body">
+          <span class="fl-tag mb-2 d-inline-block">Colección</span>
+          <h2 class="fl-ppup-title">Póster conmemorativo</h2>
+          <p class="fl-ppup-price">$1.900</p>
+          <p class="fl-ppup-desc">Póster de edición limitada diseñado por ilustradores argentinos para celebrar los 50 años de la Feria Internacional del Libro de Buenos Aires. Ideal para enmarcar. Cada ejemplar lleva su número de serie.</p>
+          <ul class="fl-ppup-specs">
+            <li><strong>Tamaño:</strong> A2 (42 × 59.4 cm)</li>
+            <li><strong>Papel:</strong> Offset 200 g/m²</li>
+            <li><strong>Impresión:</strong> 4 colores CMYK + barniz</li>
+            <li><strong>Tiraje:</strong> 500 ejemplares numerados</li>
+            <li><strong>Incluye:</strong> Tubo protector para envío</li>
+          </ul>
+          <div class="fl-qty-wrap">
+            <label class="fl-label">Cantidad</label>
+            <div class="fl-qty-ctrl">
+              <button type="button" class="fl-qty-btn">−</button>
+              <input type="number" value="1" min="1" max="10" class="fl-qty-native"/>
+              <button type="button" class="fl-qty-btn">+</button>
+            </div>
+          </div>
+          <a href="carrito.html" class="fl-btn-primary d-block text-center mt-3">Agregar al carrito</a>
+          <p class="fl-ppup-ship">Envío gratis en feria · Retiro en stand disponible</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="fl-ppup-wrap" id="prod-4">
+  <a href="tienda.html" class="fl-ppup-overlay"></a>
+  <div class="fl-ppup">
+    <a href="tienda.html" class="fl-ppup-close"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></a>
+    <div class="row g-0">
+      <div class="col-12 col-md-5">
+        <div class="fl-ppup-img-wrap">
+          <img src="./img/remera.png" alt="Remera" class="fl-ppup-img"/>
+          <span class="fl-ppup-badge alt-dark">Nuevo</span>
+        </div>
+      </div>
+      <div class="col-12 col-md-7">
+        <div class="fl-ppup-body">
+          <span class="fl-tag mb-2 d-inline-block">Ropa</span>
+          <h2 class="fl-ppup-title">Remera aniversario</h2>
+          <p class="fl-ppup-price">$6.500</p>
+          <p class="fl-ppup-desc">Remera unisex de algodón peinado con diseño exclusivo del 50 aniversario. Corte recto, ideal para usar en el día a día o como recuerdo único del evento más importante del libro.</p>
+          <ul class="fl-ppup-specs">
+            <li><strong>Material:</strong> 100% algodón peinado 180 g/m²</li>
+            <li><strong>Talles:</strong> S · M · L · XL</li>
+            <li><strong>Colores:</strong> Blanco / Negro / Violeta</li>
+            <li><strong>Estampa:</strong> Serigrafía frente y espalda</li>
+          </ul>
+          <div class="mb-3">
+            <label class="fl-label">Talle</label>
+            <select class="fl-input fl-select" style="width:auto;padding:8px 36px 8px 12px;">
+              <option>S</option><option selected>M</option><option>L</option><option>XL</option>
+            </select>
+          </div>
+          <div class="fl-qty-wrap">
+            <label class="fl-label">Cantidad</label>
+            <div class="fl-qty-ctrl">
+              <button type="button" class="fl-qty-btn">−</button>
+              <input type="number" value="1" min="1" max="10" class="fl-qty-native"/>
+              <button type="button" class="fl-qty-btn">+</button>
+            </div>
+          </div>
+          <a href="carrito.html" class="fl-btn-primary d-block text-center mt-3">Agregar al carrito</a>
+          <p class="fl-ppup-ship">Envío gratis en feria · Retiro en stand disponible</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="fl-footer">
+  <div class="container-xl">
+    <span class="fl-footer-logo">Composición digital</span>
+    <p class="mt-1">Nahir Alí</p>
+    <p class="mt-3" style="font-size:12px;">
+      <a href="index.html">Inicio</a> &nbsp;·&nbsp;
+      <a href="sobre.html">Sobre</a> &nbsp;·&nbsp;
+      <a href="actividades.html">Actividades</a> &nbsp;·&nbsp;
+      <a href="tienda.html">Tienda</a> &nbsp;·&nbsp;
+      <a href="contacto.html">Contacto</a> &nbsp;·&nbsp;
+      <a href="faq.html">FAQ</a>
+    </p>
+  </div>
+</footer>
+<script src="js/animations.js"></script>
+</body>
+</html>
