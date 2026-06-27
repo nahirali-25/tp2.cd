@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Feria Internacional del Libro Buenos Aires 2026</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+
+<nav class="fl-nav">
+  <input type="checkbox" id="nav-cb" class="fl-nav-cb"/>
+  <div class="fl-nav-inner">
+    <a class="fl-brand" href="index.html">Feria del Libro 2026</a>
+    <label for="nav-cb" class="fl-hamburger" aria-label="Menú"><span></span><span></span><span></span></label>
+    <div class="fl-nav-menu">
+      <ul class="fl-nav-links">
+        <li><a href="index.html" class="active">Inicio</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="actividades.html">Actividades</a></li>
+        <li><a href="lugar.html">Lugar</a></li>
+        <li><a href="tienda.html">Tienda</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+      </ul>
+      <a href="tienda.html" class="fl-btn-nav">Ir a la tienda</a>
+      <a href="carrito.html" class="fl-cart-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+        <span class="fl-cart-badge">3</span>
+      </a>
+    </div>
+  </div>
+  <div class="fl-nav-dropdown">
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="sobre.html">Sobre la feria</a></li>
+      <li><a href="actividades.html">Actividades</a></li>
+      <li><a href="lugar.html">Lugar</a></li>
+      <li><a href="tienda.html">Tienda</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+    </ul>
+    <a href="tienda.html" class="fl-btn-nav">Ir a la tienda</a>
+  </div>
+</nav>
+
+<header class="fl-hero">
+  <div class="fl-hero-overlay"></div>
+  <div class="container-xl fl-hero-content">
+    <span class="fl-hero-badge">Edición 50 Aniversario</span>
+    <h1 class="fl-hero-title">Feria Internacional<br>del Libro Buenos Aires 2026</h1>
+    <p class="fl-hero-desc">El encuentro cultural más grande de habla hispana. Autores, editores, lectores y el mundo del libro reunidos en un solo lugar.</p>
+    <div class="fl-meta-bar">
+      <div class="fl-meta-item"><span class="fl-meta-label">Fechas</span><span class="fl-meta-value">23 abril – 11 mayo 2026</span></div>
+      <div class="fl-meta-sep"></div>
+      <div class="fl-meta-item"><span class="fl-meta-label">Horario</span><span class="fl-meta-value">Lun–Vier 14–22 h · Sáb–Dom 12–22 h</span></div>
+      <div class="fl-meta-sep"></div>
+      <div class="fl-meta-item"><span class="fl-meta-label">Sede</span><span class="fl-meta-value">La Rural, Palermo, CABA</span></div>
+    </div>
+    <div class="d-flex gap-3 justify-content-center flex-wrap">
+      <a href="tienda.html" class="fl-btn-primary">Comprá tu entrada</a>
+      <a href="actividades.html" class="fl-btn-ghost">Ver programa</a>
+    </div>
+  </div>
+</header>
+
+<section class="fl-section">
+  <div class="container-xl">
+    <div class="row g-4">
+
+      <div class="col-12 col-md-4">
+        <div class="fl-card h-100">
+          <div class="fl-card-img-wrap">
+            <img src="./img/feria2.jpg" alt="Stands" class="fl-card-img" loading="lazy"/>
+          </div>
+          <div class="fl-card-body">
+            <span class="fl-tag">Editorial</span>
+            <h3 class="fl-card-title">+1.500 expositores</h3>
+            <p class="fl-card-desc">Las principales editoriales de 40 países presentes en un mismo predio con novedades y clásicos.</p>
+            <a href="sobre.html" class="fl-srv-more mt-auto">Conocer más →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <div class="fl-card h-100">
+          <div class="fl-card-img-wrap">
+            <img src="./img/programa.png" alt="Charlas" class="fl-card-img" loading="lazy"/>
+          </div>
+          <div class="fl-card-body">
+            <span class="fl-tag">Conferencias</span>
+            <h3 class="fl-card-title">Programa cultural</h3>
+            <p class="fl-card-desc">Charlas, presentaciones, talleres y firmas de autores nacionales e internacionales todos los días.</p>
+            <a href="actividades.html" class="fl-srv-more mt-auto">Ver actividades →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <div class="fl-card h-100">
+          <div class="fl-card-img-wrap">
+            <img src="./img/tienda.png" alt="Merch" class="fl-card-img" loading="lazy"/>
+          </div>
+          <div class="fl-card-body">
+            <span class="fl-tag">Tienda oficial</span>
+            <h3 class="fl-card-title">Merchandising 50 años</h3>
+            <p class="fl-card-desc">Edición limitada de productos exclusivos para conmemorar medio siglo de la feria más importante del mundo.</p>
+            <a href="tienda.html" class="fl-srv-more mt-auto">Ver tienda →</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="fl-section fl-bg-alt">
+  <div class="container-xl">
+    <h2 class="fl-section-title">Nuestros servicios</h2>
+    <div class="fl-divider"></div>
+    <p class="fl-lead mb-5">Descubrí los servicios principales de la feria</p>
+    <div class="row g-4">
+
+      <div class="col-12 col-sm-6 col-lg-3">
+        <a href="sobre.html#srv-1" class="fl-srv-card">
+          <div class="fl-srv-img-wrap">
+            <img src="./img/prensa_.png" alt="Servicio 1" class="fl-srv-img" loading="lazy"/>
+          </div>
+          <div class="fl-srv-body">
+            <h3 class="fl-srv-title">Acreditación de prensa</h3>
+            <p class="fl-srv-short">Credenciales oficiales para medios y periodistas</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-3">
+        <a href="sobre.html#srv-2" class="fl-srv-card">
+          <div class="fl-srv-img-wrap">
+            <img src="./img/mkt.webp" alt="Servicio 2" class="fl-srv-img" loading="lazy"/>
+          </div>
+          <div class="fl-srv-body">
+            <h3 class="fl-srv-title">Difusión y marketing</h3>
+            <p class="fl-srv-short">Paquetes de visibilidad y promoción digital</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-3">
+        <a href="sobre.html#srv-3" class="fl-srv-card">
+          <div class="fl-srv-img-wrap">
+            <img src="./img/estudiantes.jpg" alt="Servicio 3" class="fl-srv-img" loading="lazy"/>
+          </div>
+          <div class="fl-srv-body">
+            <h3 class="fl-srv-title">Servicios educativos</h3>
+            <p class="fl-srv-short">Programas para instituciones educativas</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="fl-section fl-bg-dark">
+  <div class="container-xl text-center">
+    <h2 class="fl-section-title" style="color:var(--white)">Tienda oficial · 50 aniversario</h2>
+    <div class="fl-divider mx-auto"></div>
+    <p style="font-size:16px;font-weight:300;color:var(--p100);max-width:520px;margin:0 auto 2rem;">Llevate un recuerdo de edición limitada. Tote bags, tazas, remeras, pósters y más.</p>
+    <a href="tienda.html" class="fl-btn-primary">Ver tienda completa</a>
+  </div>
+</section>
+
+<footer class="fl-footer">
+  <div class="container-xl">
+    <span class="fl-footer-logo">Composición digital</span>
+    <p class="mt-1">Nahir Alí</p>
+    <p class="mt-3" style="font-size:12px;">
+      <a href="index.html">Inicio</a> &nbsp;·&nbsp;
+      <a href="sobre.html">Sobre</a> &nbsp;·&nbsp;
+      <a href="actividades.html">Actividades</a> &nbsp;·&nbsp;
+      <a href="tienda.html">Tienda</a> &nbsp;·&nbsp;
+      <a href="contacto.html">Contacto</a> &nbsp;·&nbsp;
+      <a href="faq.html">FAQ</a>
+    </p>
+  </div>
+</footer>
+<script src="js/animations.js"></script>
+</body>
+</html>

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mis pedidos — Feria del Libro 2026</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+<nav class="fl-nav">
+  <input type="checkbox" id="nav-cb" class="fl-nav-cb"/>
+  <div class="fl-nav-inner">
+    <a class="fl-brand" href="index.html">Feria del Libro 2026</a>
+    <label for="nav-cb" class="fl-hamburger"><span></span><span></span><span></span></label>
+    <div class="fl-nav-menu">
+      <ul class="fl-nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="tienda.html">Tienda</a></li>
+        <li><a href="carrito.html">Carrito</a></li>
+        <li><a href="pedidos.html" class="active">Mis pedidos</a></li>
+      </ul>
+      <a href="tienda.html" class="fl-btn-nav">Ir a la tienda</a>
+      <a href="carrito.html" class="fl-cart-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+        <span class="fl-cart-badge">3</span>
+      </a>
+    </div>
+  </div>
+  <div class="fl-nav-dropdown">
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="tienda.html">Tienda</a></li>
+      <li><a href="carrito.html">Carrito</a></li>
+      <li><a href="pedidos.html">Mis pedidos</a></li>
+    </ul>
+    <a href="tienda.html" class="fl-btn-nav">Ir a la tienda</a>
+  </div>
+</nav>
+
+<div class="fl-page-header">
+  <div class="fl-page-header-content container-xl">
+    <div class="fl-breadcrumb">
+      <a href="index.html">Inicio</a><span>/</span><a href="tienda.html">Tienda</a><span>/</span>Mis pedidos
+    </div>
+    <h1>Mis pedidos</h1>
+    <p>Historial y estado de tus compras</p>
+  </div>
+</div>
+
+<section class="fl-section">
+  <div class="container-xl">
+
+    
+
+    <div class="d-flex gap-3 mb-4 flex-wrap">
+      <h2 class="fl-section-title mb-0">Historial de pedidos</h2>
+      <a href="tienda.html" class="fl-btn-outline ms-auto">+ Nueva compra</a>
+    </div>
+
+    <div class="d-flex flex-column gap-4">
+
+      
+      <div class="fl-order-card">
+        <div class="fl-order-header">
+          <div>
+            <span class="fl-order-id">#FL-2026-0045</span>
+            <span class="fl-order-date ms-3">19 de junio, 2026 · 14:32 h</span>
+          </div>
+          <span class="fl-status fl-ok">Confirmado</span>
+        </div>
+        <div class="fl-order-items">
+          <div class="fl-oi">
+            <img src="./img/tote.png" alt="Tote bag" loading="lazy"/>
+            <div><span>Tote bag 50 años</span><small>×1 · Color natural</small></div>
+            <b style="font-size:14px;font-weight:700;color:var(--p600);">$4.200</b>
+          </div>
+          <div class="fl-oi">
+            <img src="./img/taza.png" alt="Taza" loading="lazy"/>
+            <div><span>Taza cerámica</span><small>×2 · Diseño 2026</small></div>
+            <b style="font-size:14px;font-weight:700;color:var(--p600);">$5.600</b>
+          </div>
+          <div class="fl-oi">
+            <img src="./img/poster.png" alt="Poster" loading="lazy"/>
+            <div><span>Póster conmemorativo</span><small>×1 · A2 numerado</small></div>
+            <b style="font-size:14px;font-weight:700;color:var(--p600);">$1.900</b>
+          </div>
+          <div class="fl-oi">
+            <img src="./img/remera.png" alt="Remera" loading="lazy"/>
+            <div><span>Remera aniversario</span><small>×1 · Talle M · Negro</small></div>
+            <b style="font-size:14px;font-weight:700;color:var(--p600);">$6.500</b>
+          </div>
+        </div>
+        
+        <div class="fl-order-timeline">
+          <div class="fl-tl-step done">
+            <div class="fl-tl-dot"></div>
+            <div class="fl-tl-info"><span>Pedido recibido</span><small>19 jun · 14:32</small></div>
+          </div>
+          <div class="fl-tl-line done"></div>
+          <div class="fl-tl-step done">
+            <div class="fl-tl-dot"></div>
+            <div class="fl-tl-info"><span>Pago confirmado</span><small>19 jun · 14:35</small></div>
+          </div>
+          <div class="fl-tl-line done"></div>
+          <div class="fl-tl-step active">
+            <div class="fl-tl-dot"></div>
+            <div class="fl-tl-info"><span>En preparación</span><small>Estimado: 21 jun</small></div>
+          </div>
+          <div class="fl-tl-line"></div>
+          <div class="fl-tl-step">
+            <div class="fl-tl-dot"></div>
+            <div class="fl-tl-info"><span>Listo para retiro</span><small>Pendiente</small></div>
+          </div>
+          <div class="fl-tl-line"></div>
+          <div class="fl-tl-step">
+            <div class="fl-tl-dot"></div>
+            <div class="fl-tl-info"><span>Entregado</span><small>Pendiente</small></div>
+          </div>
+        </div>
+        <div class="fl-order-footer">
+          <span class="fl-order-total">Total: $18.200 · Visa ••4512</span>
+          <div class="fl-order-actions">
+            <a href="#det-45" class="fl-btn-sm">Ver detalle</a>
+            <a href="tienda.html" class="fl-btn-sm fl-btn-reorder">Recomprar</a>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="fl-order-card">
+        <div class="fl-order-header">
+          <div>
+            <span class="fl-order-id">#FL-2026-0029</span>
+            <span class="fl-order-date ms-3">28 de abril, 2026 · 20:05 h</span>
+          </div>
+          <span class="fl-status fl-pending">Pendiente de pago</span>
+        </div>
+        <div class="fl-order-items">
+          <div class="fl-oi">
+            <img src="./img/remera.png" alt="Remera" loading="lazy"/>
+            <div><span>Remera aniversario</span><small>×1 · Talle L · Blanca</small></div>
+            <b style="font-size:14px;font-weight:700;color:var(--p600);">$6.500</b>
+          </div>
+        </div>
+        <div class="fl-order-timeline">
+          <div class="fl-tl-step done"><div class="fl-tl-dot"></div><div class="fl-tl-info"><span>Pedido recibido</span><small>28 abr · 20:05</small></div></div>
+          <div class="fl-tl-line"></div>
+          <div class="fl-tl-step active"><div class="fl-tl-dot"></div><div class="fl-tl-info"><span>Esperando pago</span><small>Acción requerida</small></div></div>
+          <div class="fl-tl-line"></div>
+          <div class="fl-tl-step"><div class="fl-tl-dot"></div><div class="fl-tl-info"><span>Confirmado</span><small>Pendiente</small></div></div>
+          <div class="fl-tl-line"></div>
+          <div class="fl-tl-step"><div class="fl-tl-dot"></div><div class="fl-tl-info"><span>En preparación</span><small>Pendiente</small></div></div>
+          <div class="fl-tl-line"></div>
+          <div class="fl-tl-step"><div class="fl-tl-dot"></div><div class="fl-tl-info"><span>Entregado</span><small>Pendiente</small></div></div>
+        </div>
+        <div class="fl-order-footer">
+          <span class="fl-order-total">Total: $6.500 · Pago pendiente</span>
+          <div class="fl-order-actions">
+            <a href="#det-29" class="fl-btn-sm">Ver detalle</a>
+            <a href="checkout.html" class="fl-btn-sm fl-btn-reorder">Completar pago</a>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="fl-order-card">
+        <div class="fl-order-header">
+          <div>
+            <span class="fl-order-id">#FL-2026-0014</span>
+            <span class="fl-order-date ms-3">5 de abril, 2026 · 11:20 h</span>
+          </div>
+          <span class="fl-status fl-cancel">Cancelado</span>
+        </div>
+        <div class="fl-order-items">
+          <div class="fl-oi">
+            <img src="./img/poster.png" alt="Poster" loading="lazy"/>
+            <div><span>Póster conmemorativo</span><small>×2 · A2 numerado</small></div>
+            <b style="font-size:14px;font-weight:700;color:var(--g500);">$3.800</b>
+          </div>
+        </div>
+        <div class="fl-cancel-reason">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          Cancelado por el usuario · Reembolso procesado el 7 de abril
+        </div>
+        <div class="fl-order-footer">
+          <span class="fl-order-total" style="color:var(--g500);">Total: $3.800 · Cancelado</span>
+          <div class="fl-order-actions">
+            <a href="#det-14" class="fl-btn-sm">Ver detalle</a>
+            <a href="tienda.html" class="fl-btn-sm fl-btn-reorder">Recomprar</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<div class="fl-modal-wrap" id="det-45">
+  <a href="pedidos.html" class="fl-modal-overlay"></a>
+  <div class="fl-modal" style="max-width:560px;">
+    <a href="pedidos.html" class="fl-modal-close"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></a>
+    <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=700&q=70" alt="Pedido" class="fl-modal-img" style="height:160px;"/>
+    <div class="fl-modal-body">
+      <span class="fl-status fl-ok mb-2 d-inline-block">Confirmado</span>
+      <h2 class="fl-modal-title">#FL-2026-0045</h2>
+      <p class="fl-modal-desc">19 de junio, 2026 · 14:32 h · Visa •••• 4512</p>
+      <div style="border:1px solid var(--g200);border-radius:var(--r-md);padding:1rem;margin-bottom:1rem;">
+        <div class="fl-oi"><img src="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=100&q=60" alt=""/><div><span>Tote bag 50 años</span><small>×1</small></div><b>$4.200</b></div>
+        <div class="fl-oi"><img src="https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=100&q=60" alt=""/><div><span>Taza cerámica</span><small>×2</small></div><b>$5.600</b></div>
+        <div class="fl-oi"><img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=100&q=60" alt=""/><div><span>Póster conmemorativo</span><small>×1</small></div><b>$1.900</b></div>
+        <div class="fl-oi"><img src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=100&q=60" alt=""/><div><span>Remera M negro</span><small>×1</small></div><b>$6.500</b></div>
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:16px;font-weight:700;color:var(--g900);margin-bottom:1.25rem;">
+        <span>Total pagado</span><span>$18.200</span>
+      </div>
+      <p style="font-size:13px;font-weight:300;color:var(--g700);margin-bottom:1.25rem;">
+        <strong>Envío:</strong> Retiro en stand · La Rural, Palermo<br>
+        <strong>Dirección:</strong> Av. Corrientes 1234, Piso 3 · C1043AAZ · Buenos Aires
+      </p>
+      <a href="tienda.html" class="fl-btn-primary">Recomprar</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="fl-modal-wrap" id="det-38">
+  <a href="pedidos.html" class="fl-modal-overlay"></a>
+  <div class="fl-modal" style="max-width:560px;">
+    <a href="pedidos.html" class="fl-modal-close"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></a>
+    <img src="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=700&q=70" alt="Pedido" class="fl-modal-img" style="height:160px;"/>
+    <div class="fl-modal-body">
+      <span class="fl-status fl-shipped mb-2 d-inline-block">En camino</span>
+      <h2 class="fl-modal-title">#FL-2026-0038</h2>
+      <p class="fl-modal-desc">12 de mayo, 2026 · 18:10 h · Mercado Pago</p>
+      <div style="border:1px solid var(--g200);border-radius:var(--r-md);padding:1rem;margin-bottom:1rem;">
+        <div class="fl-oi"><img src="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=100&q=60" alt=""/><div><span>Tote bag 50 años</span><small>×2 · Natural</small></div><b>$8.400</b></div>
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:16px;font-weight:700;color:var(--g900);margin-bottom:1.25rem;"><span>Total pagado</span><span>$8.400</span></div>
+      <p style="font-size:13px;font-weight:300;color:var(--g700);margin-bottom:1.25rem;"><strong>Envío:</strong> A domicilio · Estimado: 21 de junio</p>
+      <a href="tienda.html" class="fl-btn-primary">Recomprar</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="fl-modal-wrap" id="det-29">
+  <a href="pedidos.html" class="fl-modal-overlay"></a>
+  <div class="fl-modal" style="max-width:560px;">
+    <a href="pedidos.html" class="fl-modal-close"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></a>
+    <img src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=700&q=70" alt="Pedido" class="fl-modal-img" style="height:160px;"/>
+    <div class="fl-modal-body">
+      <span class="fl-status fl-pending mb-2 d-inline-block">Pendiente de pago</span>
+      <h2 class="fl-modal-title">#FL-2026-0029</h2>
+      <p class="fl-modal-desc">28 de abril, 2026 · 20:05 h</p>
+      <div style="border:1px solid var(--g200);border-radius:var(--r-md);padding:1rem;margin-bottom:1rem;">
+        <div class="fl-oi"><img src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=100&q=60" alt=""/><div><span>Remera aniversario</span><small>×1 · Talle L · Blanca</small></div><b>$6.500</b></div>
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:16px;font-weight:700;color:var(--g900);margin-bottom:1.25rem;"><span>Total pendiente</span><span>$6.500</span></div>
+      <a href="checkout.html" class="fl-btn-primary">Completar pago</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="fl-modal-wrap" id="det-14">
+  <a href="pedidos.html" class="fl-modal-overlay"></a>
+  <div class="fl-modal" style="max-width:560px;">
+    <a href="pedidos.html" class="fl-modal-close"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></a>
+    <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=700&q=70" alt="Pedido" class="fl-modal-img" style="height:160px;"/>
+    <div class="fl-modal-body">
+      <span class="fl-status fl-cancel mb-2 d-inline-block">Cancelado</span>
+      <h2 class="fl-modal-title">#FL-2026-0014</h2>
+      <p class="fl-modal-desc">5 de abril, 2026 · 11:20 h · Cancelado por el usuario</p>
+      <div style="border:1px solid var(--g200);border-radius:var(--r-md);padding:1rem;margin-bottom:1rem;">
+        <div class="fl-oi"><img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=100&q=60" alt=""/><div><span>Póster conmemorativo</span><small>×2 · A2 numerado</small></div><b style="color:var(--g500);">$3.800</b></div>
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:16px;font-weight:700;color:var(--g500);margin-bottom:8px;"><span>Total cancelado</span><span>$3.800</span></div>
+      <p style="font-size:13px;font-weight:300;color:var(--green);margin-bottom:1.25rem;">Reembolso procesado el 7 de abril de 2026.</p>
+      <a href="tienda.html" class="fl-btn-primary">Recomprar</a>
+    </div>
+  </div>
+</div>
+
+<footer class="fl-footer">
+  <div class="container-xl">
+    <span class="fl-footer-logo">Feria Internacional del Libro Buenos Aires 2026</span>
+    <p class="mt-1">Organizada por la Fundación El Libro · Av. Corrientes 1543, CABA</p>
+    <p><a href="mailto:contacto@el-libro.org.ar">contacto@el-libro.org.ar</a> · (011) 4374-1251</p>
+  </div>
+</footer>
+<script src="js/animations.js"></script>
+</body>
+</html>
